@@ -1,8 +1,9 @@
 FlashZlib - Quick Guide
 =======================
-Port created by Ed McManus
+*Port created by Ed McManus.*
 
-**Follow me on Twitter!**
+*Follow me on Twitter!*
+
 [http://www.twitter.com/emcmanus](http://www.twitter.com/emcmanus)
 
 
@@ -13,16 +14,18 @@ This project is released under the zLib license. [http://www.zlib.net/zlib_licen
 
 ## Important Locations ##
 
-  - `/bin` Contains the LLVM bitcode library to link against. This should be all you need!
+
+  - `/bin` Contains the z LLVM bitcode library, built with Alchemy V0.5. This should be all you need!
 
 
 ## How To ##
+
 
 #### Build ####
 
 With `alc-on`, run `CFLAGS="-emit-llvm" ./configure`.
 
-Then build and move the library with `make all; mv -f z.l.bc bin/z.l.bc`
+Then build and move the library with `make all; mv -f z.l.bc bin/z.l.bc`.
 
 
 #### Install ####
